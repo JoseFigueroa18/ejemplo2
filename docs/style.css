@@ -403,7 +403,7 @@ section{
 .Container .box-container .box img{
     margin: 1rem 0;
     height: 15rem;
-    
+    width: 15rem;
 }
 
 .Container .box-container .box h3{
@@ -417,6 +417,12 @@ section{
     line-height: 1.8;
     color:var(--light-color);
     padding:1rem 0;
+}
+
+.Container .box-container .box .accordion{
+    max-width: 150px;
+    margin: auto;
+    border: none;
 }
 
 .Informacion{

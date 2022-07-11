@@ -201,16 +201,16 @@ section{
 }
 @keyframes banner{
     0%, 20%{
-        background: var(--imagen1) no-repeat;
-    }
-    25%, 45%{
-        background: url(../image/banner.webp) no-repeat;
-    }
-    50%, 70%{
         background: url(../image/banner-bg.webp) no-repeat;
     }
-    75%, 100%{
+    25%, 45%{
+        background: url(../image/banner_delivery.webp) no-repeat;
+    }
+    50%, 70%{
         background: url(../image/banner.webp) no-repeat;
+    }
+    75%, 100%{
+        background: url(../image/client.webp) no-repeat;
     }
 }
 
